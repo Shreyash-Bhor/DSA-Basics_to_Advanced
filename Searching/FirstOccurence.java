@@ -12,7 +12,7 @@ public class FirstOccurence {
             arr[i] = sc.nextInt();
         }
         int left = 0;
-        int right = 0;
+        int right = n - 1;
         int ans = -1;
         int key = sc.nextInt();
 
